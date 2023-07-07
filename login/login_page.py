@@ -1,9 +1,9 @@
 def login_p():
     import tkinter as tk
     import webbrowser as wb
-    from Exception import number
-    import gui as g
-    import util as u
+    from login.Exception import number
+    import login.gui as g
+    import login.util as u
     
     root=tk.Tk()
     root.title("login")
